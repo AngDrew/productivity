@@ -1,16 +1,37 @@
-# productivity
+# Productivity
 
-A new Flutter project.
+Productivity is a Flutter project. The app is similar to app named clockify. What makes this app different? This app have enhanced with a few useful features.
 
-## Getting Started
+## Features
+- Activity Counter/Timer
+- Timeline Planner
+- Daily Activity
+- 
+- 
 
-This project is a starting point for a Flutter application.
+## Installation
+1. You must install flutter. you can find  Flutter [here](https://flutter.dev/docs/get-started/install)
+2. Use Flutter to run the app
 
-A few resources to get you started if this is your first Flutter project:
+- run in release mode:
+```bash
+flutter run --release
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- run in debug mode:
+```bash
+flutter run
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- build app:
+```bash
+flutter build apk
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

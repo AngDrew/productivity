@@ -6,8 +6,11 @@ Productivity is a Flutter project. The app is similar to app named clockify. Wha
 - Activity Counter/Timer
 - Timeline Planner
 - Daily Activity
-- 
-- 
+- Activity Monitor
+- Reminder
+- etc.
+
+As you can see the features above, it's related to time management. To be precise, this app is a helper to managing our time.
 
 ## Installation
 1. You must install flutter. you can find  Flutter [here](https://flutter.dev/docs/get-started/install)
@@ -34,4 +37,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+haven't decide one

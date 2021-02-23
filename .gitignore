@@ -39,3 +39,11 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+macos/
+
+pubspec.lock
+
+test/
+
+web/

@@ -89,16 +89,16 @@ const EdgeInsets betterSpaceRight = EdgeInsets.only(right: 16);
 const EdgeInsets hugeSpaceRight = EdgeInsets.only(right: 32);
 
 /// SizedBox `width` & `height` = 4
-const SizedBox tinyWidget = SizedBox(height: 4, width: 4);
+const SizedBox tinySpaceWidget = SizedBox(height: 4, width: 4);
 
 /// SizedBox `width` & `height` = 8
-const SizedBox littleWidget = SizedBox(height: 8, width: 8);
+const SizedBox littleSpaceWidget = SizedBox(height: 8, width: 8);
 
 /// SizedBox `width` & `height` = 16
-const SizedBox betterWidget = SizedBox(height: 16, width: 16);
+const SizedBox betterSpaceWidget = SizedBox(height: 16, width: 16);
 
 /// SizedBox `width` & `height` = 32
-const SizedBox hugeWidget = SizedBox(height: 32, width: 32);
+const SizedBox hugeSpaceWidget = SizedBox(height: 32, width: 32);
 
 const Divider divider =
     Divider(color: Color(0xFF191919), height: 0.5, thickness: 0.5);

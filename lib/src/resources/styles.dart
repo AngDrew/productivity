@@ -1,45 +1,41 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/screenutil.dart';
+import 'package:flutter_screenutil/screen_util.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'r.dart';
 
 class MyStyles {
   const MyStyles();
 
-  double get small => ScreenUtil().setSp(12);
-  double get regular => ScreenUtil().setSp(16);
-  double get large => ScreenUtil().setSp(20);
-  double get extraLarge => ScreenUtil().setSp(24);
+  double get _small => ScreenUtil().setSp(12);
+  double get _regular => ScreenUtil().setSp(16);
+  double get _medium => ScreenUtil().setSp(18);
+  double get _large => ScreenUtil().setSp(20);
+  double get _extraLarge => ScreenUtil().setSp(24);
 
-  TextStyle get script => GoogleFonts.questrial(
+  TextStyle get _script => GoogleFonts.questrial(
         textStyle: TextStyle(
-          fontSize: ScreenUtil().setSp(12),
+          fontSize: _small,
         ),
       ); // note size
-  TextStyle get normal => GoogleFonts.josefinSans(
+  TextStyle get _normal => GoogleFonts.josefinSans(
         textStyle: TextStyle(
-          fontSize: ScreenUtil().setSp(16),
+          fontSize: _regular,
         ),
-      ); // normal size
-  TextStyle get subTitle => GoogleFonts.questrial(
+      ); // _normal size
+  TextStyle get _subTitle => GoogleFonts.questrial(
         textStyle: TextStyle(
-          fontSize: ScreenUtil().setSp(18),
+          fontSize: _medium,
         ),
       ); // subtitle size
-  TextStyle get title => GoogleFonts.inter(
+  TextStyle get _title => GoogleFonts.inter(
         textStyle: TextStyle(
-          fontSize: ScreenUtil().setSp(18),
+          fontSize: _medium,
           fontWeight: FontWeight.w500,
         ),
-      ); // title size
+      ); // _title size
 
-  TextStyle get scriptXP => script.copyWith(color: xPrimary);
-  TextStyle get normalXP => normal.copyWith(color: xPrimary);
-  TextStyle get subTitleXP => subTitle.copyWith(color: xPrimary);
-  TextStyle get titleXP => title.copyWith(color: xPrimary);
-
-  TextStyle get scriptXS => script.copyWith(color: xSecondary);
-  TextStyle get normalXS => normal.copyWith(color: xSecondary);
-  TextStyle get subTitleXS => subTitle.copyWith(color: xSecondary);
-  TextStyle get titleXS => title.copyWith(color: xSecondary);
+  TextStyle get scriptFont => _script.copyWith(color: xPrimary);
+  TextStyle get normalFont => _normal.copyWith(color: xPrimary);
+  TextStyle get subTitleFont => _subTitle.copyWith(color: xPrimary);
+  TextStyle get titleFont => _title.copyWith(color: xPrimary);
 }

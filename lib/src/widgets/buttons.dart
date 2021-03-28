@@ -106,6 +106,7 @@ class _RoundedButtonWithIconChild extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         icon,
+        littleSpaceWidget,
         label,
       ],
     );
